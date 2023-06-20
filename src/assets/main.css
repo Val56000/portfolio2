@@ -201,11 +201,20 @@ i:not(.fa-solid) {
     color: rgb(180, 179, 179);
 }
 
-.name-portfolio {
+/* .name-portfolio {
     position: absolute;
     top: 5.5rem;
     left: 0.5rem;
     color: #777da7;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    line-height: 1rem;
+} */
+.name-portfolio {
+    position: fixed;
+    top: 1.5rem;
+    left: 0.5rem;
+    color: white;
     font-family: 'Caveat', cursive;
     font-size: 1.2rem;
     line-height: 1rem;
@@ -237,6 +246,7 @@ i:not(.fa-solid) {
     border-radius: 10px;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
+    box-shadow: 1px 2px;
 }
 
 
@@ -264,15 +274,7 @@ i:not(.fa-solid) {
         display: block !important;
     }
 
-    .name-portfolio {
-        position: fixed;
-        top: 1.5rem;
-        left: 0.5rem;
-        color: white;
-        font-family: 'Caveat', cursive;
-        font-size: 1.2rem;
-        line-height: 1rem;
-    }
+
 }
 
 @media screen and (min-width : 700px) {
