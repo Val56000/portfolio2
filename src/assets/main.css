@@ -1,0 +1,293 @@
+/* body{
+    background-color: #17171D;
+  } */
+
+.gap1 {
+    gap: 1rem;
+}
+
+.gap5 {
+    gap: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    width: 100vw;
+    border-bottom: 1px solid #9ceaef;
+    background-color: #777da7;
+    position: fixed;
+    top: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+*.flexRow {
+    flex-direction: row;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+
+.alignCenter {
+    align-items: center;
+}
+
+.backGroundColor1 {
+    background-color: #fbfcff;
+}
+
+
+/* HEIGHT  */
+.height1 {
+    height: 5rem;
+}
+
+.height2 {
+    height: 10rem;
+}
+
+.height3 {
+    height: 15rem;
+}
+
+.height4 {
+    height: 20rem;
+}
+
+
+.selectNone {
+    user-select: none;
+}
+
+
+
+
+/* CURSOR  */
+.cursor {
+    cursor: pointer;
+}
+
+
+
+/* DISPLAY  */
+.displayNone {
+    display: none;
+}
+
+
+
+/* FONT FAMILY  */
+
+.mulish {
+    font-family: 'Mulish', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+
+/* COLOR  */
+.white {
+    color: whitesmoke;
+}
+
+
+/* BUTTON  */
+button {
+    background-color: #f5f3f5;
+    box-shadow: #094c66 4px 4px 0px;
+    border-radius: 8px;
+    padding: 15px 10px;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    /* min-width: 2rem; */
+    /* width: 100%; */
+    max-width: 10rem !important;
+    transition: transform 200ms, box-shadow 200ms;
+}
+
+button:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+
+
+.containerProject {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
+.mt-6-5 {
+    margin-top: 6.5rem !important;
+}
+
+
+.mt-10 {
+    margin-top: 10rem !important;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.radius {
+    border-radius: 2rem;
+}
+
+
+/* ICONE  */
+i:not(.fa-solid) {
+    font-size: 2.5rem;
+}
+
+
+.fa-solid.fa-bars {
+    display: none;
+}
+
+.width-5 {
+    width: 5rem;
+}
+
+.width80vw {
+    width: 70vw;
+}
+
+
+.fa-solid.fa-right-to-bracket {
+    rotate: 180deg;
+}
+
+.fa-solid.fa-right-to-bracket:hover {
+    color: rgb(180, 179, 179);
+}
+
+.name-portfolio {
+    position: absolute;
+    top: 5.5rem;
+    left: 0.5rem;
+    color: #777da7;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    line-height: 1rem;
+}
+
+
+.lineHeight1 {
+    line-height: 1rem;
+}
+
+.size0-8 {
+    font-size: 0.9rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.menuHamburger {
+    position: fixed;
+    right: 0;
+    top: 5rem;
+    background-color: white;
+    width: 6rem;
+    height: 6.5rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 6.5rem;
+    border-radius: 10px;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+
+.menuHamburger .cursor:hover {
+    background-color: #dfe0eb;
+}
+
+
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 699px) {
+    .fa-solid.fa-bars {
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 1.7rem;
+        font-size: 1.5rem;
+    }
+
+    .flex.alignCenter.gap5.white {
+        display: none;
+    }
+
+    #menuToggle {
+        display: block !important;
+    }
+
+    .name-portfolio {
+        position: fixed;
+        top: 1.5rem;
+        left: 0.5rem;
+        color: white;
+        font-family: 'Caveat', cursive;
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width : 700px) {
+    .menuHamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        width: 100% !important;
+        max-width: 95vw !important;
+    }
+
+    button {
+        width: 1rem !important;
+    }
+}
