@@ -5,6 +5,9 @@
 .gap1 {
     gap: 1rem;
 }
+.gap3{
+    gap: 3rem;
+}
 
 .gap5 {
     gap: 5rem;
@@ -19,6 +22,17 @@ nav {
     background-color: #777da7;
     position: fixed;
     top: 0;
+    /* z-index: 2; */
+}
+
+nav .icon-nav-linkedin{
+    position: absolute;
+    right: 6.5rem;
+}
+
+nav .icon-nav-github{
+    position: absolute;
+    right: 2.5rem;
 }
 
 .flex {
@@ -102,7 +116,6 @@ nav {
 
 .raleway {
     font-family: 'Raleway', sans-serif;
-
 }
 
 .roboto {
@@ -151,6 +164,7 @@ button:active {
 }
 
 
+/* MARGIN TOP  */
 .mt-6 {
     margin-top: 6rem !important;
 }
@@ -159,9 +173,31 @@ button:active {
     margin-top: 6.5rem !important;
 }
 
+.mt-8 {
+    margin-top: 8rem !important;
+}
+
+
 
 .mt-10 {
     margin-top: 10rem !important;
+}
+
+/* MARGIN BOTTOM  */
+.mb-6-5{
+    margin-bottom: 6.5rem !important;
+}
+
+.mb-7{
+    margin-bottom: 7rem !important;
+}
+
+.mb-8{
+    margin-bottom: 8rem !important;
+}
+
+.mb-10{
+    margin-bottom: 10rem !important;
 }
 
 
@@ -169,8 +205,35 @@ button:active {
     text-decoration: underline;
 }
 
+
+/* BORDER RADIUS  */
 .radius {
     border-radius: 2rem;
+}
+
+/* COMPOSANTS SOUS PROJETS  */
+.container-exit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 6rem;
+    left: 0.8rem;
+    border-radius: 20px;
+    width: 15rem;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid grey;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    box-shadow: #c0b8b8 5px 5px 8px;
+}
+
+.container-exit:hover {
+    transition-duration: 0.5s;
+    box-shadow: none;
 }
 
 
@@ -184,6 +247,23 @@ i:not(.fa-solid) {
     display: none;
 }
 
+.fa-solid.fa-right-to-bracket {
+    rotate: 180deg;
+}
+
+.fa-solid.fa-right-to-bracket:hover {
+    color: rgb(180, 179, 179);
+}
+
+.fa-brands.fa-linkedin,
+.fa-brands.fa-github {
+    color: white;
+}
+
+
+
+/* WIDTH  */
+
 .width-5 {
     width: 5rem;
 }
@@ -193,31 +273,17 @@ i:not(.fa-solid) {
 }
 
 
-.fa-solid.fa-right-to-bracket {
-    rotate: 180deg;
-}
 
-.fa-solid.fa-right-to-bracket:hover {
-    color: rgb(180, 179, 179);
-}
 
-/* .name-portfolio {
-    position: absolute;
-    top: 5.5rem;
-    left: 0.5rem;
-    color: #777da7;
-    font-family: 'Caveat', cursive;
-    font-size: 1.2rem;
-    line-height: 1rem;
-} */
+
 .name-portfolio {
     position: fixed;
-    top: 1.5rem;
-    left: 0.5rem;
+    top: 1.3rem;
+    left: 0.8rem;
     color: white;
     font-family: 'Caveat', cursive;
-    font-size: 1.2rem;
     line-height: 1rem;
+    z-index: 2;
 }
 
 
@@ -225,12 +291,37 @@ i:not(.fa-solid) {
     line-height: 1rem;
 }
 
+.size0-7 {
+    font-size: 0.7rem;
+}
+
 .size0-8 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.size1{
+    font-size: 1rem;
+}
+
+.item-nav:hover {
+    /* font-weight: bold; */
+    transition-duration: 0.5s;
 }
 
 .bold {
     font-weight: bold;
+}
+
+h1 {
+    font-size: 24px !important;
+}
+
+h2 {
+    font-size: 20px !important;
+}
+
+h3 {
+    font-size: 16px !important;
 }
 
 .menuHamburger {
@@ -239,8 +330,9 @@ i:not(.fa-solid) {
     top: 5rem;
     background-color: white;
     width: 6rem;
-    height: 6.5rem;
+    height: 8.6rem;
     padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 6.5rem;
     border-radius: 10px;
@@ -250,14 +342,46 @@ i:not(.fa-solid) {
 }
 
 
+
 .menuHamburger .cursor:hover {
     background-color: #dfe0eb;
 }
 
 
 
-/* MEDIA QUERIES  */
-@media screen and (max-width: 699px) {
+
+
+@media screen and (max-width: 700px) {
+    .name-portfolio {
+        font-size: 1.2rem;
+        transition-duration: 0.5s;
+    }
+
+    .containerProject {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 701px) {
+    .name-portfolio {
+        font-size: 1.5rem;
+        transition-duration: 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
     .fa-solid.fa-bars {
         display: block;
         position: absolute;
@@ -274,20 +398,42 @@ i:not(.fa-solid) {
         display: block !important;
     }
 
+    img {
+        width: 100vw !important;
+    }
+
+    button {
+        width: 1rem !important;
+    }
+    .container-exit{
+        width: 10rem;
+        height: 2rem;
+        font-size: 0.6rem;
+        transition-duration: 0.5s;
+    }
 
 }
 
-@media screen and (min-width : 700px) {
+
+@media screen and (min-width : 901px) {
     .menuHamburger {
         display: none;
     }
+
+    img {
+        width: 50vw !important;
+    }
+
+    .container-exit{
+        transition-duration: 0.5s;
+    }
+
 }
 
+
+
 @media screen and (max-width: 1000px) {
-    img {
-        width: 100% !important;
-        max-width: 95vw !important;
-    }
+
 
     button {
         width: 1rem !important;

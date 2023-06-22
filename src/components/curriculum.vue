@@ -7,7 +7,7 @@
     <div class="mt-6-5 flex flexColumn justifyCenter">
         <div class="flex justifyCenter">
         <a href="../../src/assets/image/curriculum_vitae.pdf" target="_blank">
-            <button type="button" class="cursor mb-5">Donwload CV </button>
+            <button type="button" class="cursor mb-5"><i class="fa-solid fa-download mr-2"></i> Download CV </button>
         </a>
     </div>
     </div>
@@ -17,12 +17,10 @@
 
 <style scoped>
 img {
-    /* min-width: 80vw; */
     width: 60vw;
-    /* max-width: 70vw; */
     border-radius: 15px;
     border: 2px solid black;
-    /* margin-bottom: 3rem; */
+    margin-bottom: 1rem;
 }
 
 a{
