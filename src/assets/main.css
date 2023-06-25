@@ -184,6 +184,11 @@ button:active {
 }
 
 /* MARGIN BOTTOM  */
+.mb-6{
+    margin-bottom: 6rem !important;
+}
+
+
 .mb-6-5{
     margin-bottom: 6.5rem !important;
 }
@@ -229,6 +234,7 @@ button:active {
     line-height: 1rem;
     font-size: 0.8rem;
     box-shadow: #c0b8b8 5px 5px 8px;
+    transition-duration: 0.5s;
 }
 
 .container-exit:hover {
@@ -310,6 +316,10 @@ i:not(.fa-solid) {
 
 .bold {
     font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
 }
 
 h1 {
@@ -411,6 +421,9 @@ h3 {
         font-size: 0.6rem;
         transition-duration: 0.5s;
     }
+    video{
+        max-width: 100vw !important;
+    }
 
 }
 
@@ -426,6 +439,9 @@ h3 {
 
     .container-exit{
         transition-duration: 0.5s;
+    }
+    video{
+        max-width: 80vw !important;
     }
 
 }

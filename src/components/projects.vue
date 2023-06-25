@@ -125,6 +125,7 @@ function displayParentProject(destroyComponentProject) {
 
 .containerProject {
   box-shadow: #c0b8b8 5px 5px 8px;
+  transition-duration: 0.5s;
 }
 
 .containerProject:hover,
