@@ -76,7 +76,7 @@ function exit() {
             <div class="mb-3">Quant aux données, elles ont été stockées en base de données <b>MySql</b> (+ interface HeidiSql).</div>
             <div><i class="fa-solid fa-check mr-2"></i>En juin 2023, le module e-learning a été
                 intégré à l'application Okalys.</div>
-            <div class="flex justifyCenter"><a href="https://github.com/Val56000/eLearningV2DemoClient.git" target="_blank"
+            <div class="flex justifyCenter"><a href="https://github.com/Val56000/quiz3.git" target="_blank"
                     title="E-learning GitHub Version2"><i class="fa-brands fa-github pt-5"></i></a></div>
             <div class="flex justifyCenter size1">Version 2 (Vue.js - Laravel)</div>
 
