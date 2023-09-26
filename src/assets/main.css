@@ -47,7 +47,7 @@ nav .icon-nav-github{
     flex-direction: column;
 }
 
-*.flexRow {
+.flexRow {
     flex-direction: row;
 }
 
@@ -66,6 +66,10 @@ nav .icon-nav-github{
 
 .backGroundColor1 {
     background-color: #fbfcff;
+}
+
+.backGroundColor2 {
+    background-color: #f3f5fd;
 }
 
 
@@ -165,12 +169,24 @@ button:active {
 
 
 /* MARGIN TOP  */
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.mt-5-1 {
+    margin-top: 5.1rem !important;
+}
+
 .mt-6 {
     margin-top: 6rem !important;
 }
 
 .mt-6-5 {
     margin-top: 6.5rem !important;
+}
+
+.mt-7 {
+    margin-top: 7rem !important;
 }
 
 .mt-8 {
@@ -203,6 +219,95 @@ button:active {
 
 .mb-10{
     margin-bottom: 10rem !important;
+}
+
+/* MARGIN LEFT  */
+.ml-1-2{
+    margin-left: 1.2rem !important;
+}
+
+
+.ml-2{
+    margin-left: 2rem !important;
+}
+
+
+/* MARGIN RIGHT  */
+.mr-1-2{
+    margin-right: 1.2rem !important;
+}
+
+.mr-2{
+    margin-right: 2rem !important;
+}
+
+
+
+
+
+
+/* PADDING-BOTTOM  */
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+.pb-2{
+    padding-bottom: 2rem;
+}
+
+.pb-3{
+    padding-bottom: 3rem;
+}
+
+.pb-4{
+    padding-bottom: 4rem;
+}
+
+.pb-5{
+    padding-bottom: 5rem;
+}
+
+.pb-6{
+    padding-bottom: 6rem;
+}
+
+.pb-7{
+    padding-bottom: 7rem;
+}
+
+
+
+/* PADDING-TOP  */
+.pt-1{
+    padding-top: 1rem !important;
+}
+
+.pt-2{
+    padding-top: 2rem !important;
+}
+
+.pt-3{
+    padding-top: 3rem !important;
+}
+
+.pt-4{
+    padding-top: 4rem !important;
+}
+
+.pt-5{
+    padding-top: 5rem !important;
+}
+
+.pt-6{
+    padding-top: 6rem !important;
+}
+
+.pt-7{
+    padding-top: 7rem !important;
+}
+
+.pt-8{
+    padding-top: 8rem !important;
 }
 
 
@@ -275,7 +380,15 @@ i:not(.fa-solid) {
 }
 
 .width80vw {
-    width: 70vw;
+    width: 80vw !important;
+}
+
+.width90vw {
+    width: 90vw !important;
+}
+
+.width100vw {
+    width: 100vw !important;
 }
 
 
@@ -293,11 +406,23 @@ i:not(.fa-solid) {
 }
 
 
+.lineHeight0 {
+    line-height: 0rem;
+}
+
 .lineHeight1 {
     line-height: 1rem;
 }
 
-.size0-7 {
+.lineHeight1-1 {
+    line-height: 1.1rem;
+}
+
+.lineHeight1-2 {
+    line-height: 1.2rem;
+}
+
+.size1 {
     font-size: 0.7rem;
 }
 

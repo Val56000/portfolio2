@@ -13,7 +13,7 @@ function exit() {
 
 
 <template>
-    <div class="containerProject3 raleway selectNone size0-7">
+    <div class="containerProject3 raleway selectNone size1">
         <div class="mt-10  childContainerProject3 mb-7">
             <div class="container-exit cursor roboto" @click="exit"><i
                     class="fa-solid fa-rotate-left cursor mr-2"></i>Retour à la
@@ -43,9 +43,9 @@ function exit() {
                 </div>
 
             </div>
-            <div class="flex justifyCenter"><a href="https://github.com/Val56000/eLearningV2DemoClient.git" target="_blank"
+            <div class="flex justifyCenter"><a href="https://github.com/Val56000/lets-talk.git" target="_blank"
                     title="Projet réseau social - GitHub"><i class="fa-brands fa-github"></i></a></div>
-            <div class="flex justifyCenter size0-7 mb-5">Accès GitHub</div>
+            <div class="flex justifyCenter size1 mb-5">Accès GitHub</div>
             <div class="flex justifyCenter">
                 <figure>
                     <video class="langages" controls>

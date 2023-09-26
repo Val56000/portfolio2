@@ -13,14 +13,14 @@ function exit() {
 
 
 <template>
-    <div class="containerProject1 raleway selectNone size0-7">
+    <div class="containerProject1 raleway selectNone size1">
         <div class="mt-10  childContainerProject1 mb-7">
             <div class="container-exit cursor " @click="exit"><i class="fa-solid fa-rotate-left cursor mr-2"></i>Retour à
                 la
                 liste des
                 projets</div>
             <div class="flex flexColumn alignCenter">
-                <h2 class="mb-3">Projet module e-learning Société Okalys <div class="ml-3 size0-7 roboto textCenter mt-1 underline"><a href="http://www.okalys.com/" target="_blank" rel="noopener noreferrer">(www.okalys.com)</a></div></h2>
+                <h2 class="mb-3">Projet module e-learning Société Okalys <div class="ml-3 size1 roboto textCenter mt-1 underline"><a href="http://www.okalys.com/" target="_blank" rel="noopener noreferrer">(www.okalys.com)</a></div></h2>
                 <div class="mb-3">La société Okalys, situé à Vannes (Morbihan) propose une solution de Sales Enablement
                     (Book de
                     vente
@@ -46,13 +46,13 @@ function exit() {
                 'defineProps' et 'defineEmits' </div>
             <div class="mb-3"><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Stockage des données en
                 sessionStorage </div>
-            <div class="mb-3"> Cette première version de ce module permet de créer et de participer à un quiz. Début 2023, j'en ai fait
+            <div > Cette première version de ce module permet de créer et de participer à un quiz. Début 2023, j'en ai fait
                 la
                 démonstration à <b>Bonduelle, acteur majeur de l'agroalimentaire et client de Okalys</b>.</div>
 
             <div class="flex justifyCenter"><a href="https://github.com/Val56000/eLearningV2DemoClient.git" target="_blank"
-                    title="E-learning GitHub Version1"><i class="fa-brands fa-github"></i></a></div>
-            <div class="flex justifyCenter size0-7">Version 1 (Vue.js)</div>
+                    title="E-learning GitHub Version1"><i class="fa-brands fa-github pt-5"></i></a></div>
+            <div class="flex justifyCenter size1">Version 1 (Vue.js)</div>
         </div>
 
         <div class="childContainerProject1 mb-7">
@@ -64,7 +64,9 @@ function exit() {
             <div><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Création et migrations des tables</div>
             <div><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Gestions des routes</div>
             <div><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Création des controllers</div>
-            <div class="mb-3"><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Gestion des données avec Eloquent ORM
+            <div><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Gestion des données avec Eloquent ORM
+            </div>
+            <div class="mb-3"><i class="fa-solid fa-caret-down fa-rotate-270 mr-2"></i>Tests unitaires (PHPUnit)
             </div>
             <div class="mb-3">Cela m'a permis d'ajouter de nouvelles fonctionnalités tel que la gestion des quiz, gestion
                 des
@@ -75,8 +77,8 @@ function exit() {
             <div><i class="fa-solid fa-check mr-2"></i>En juin 2023, le module e-learning a été
                 intégré à l'application Okalys.</div>
             <div class="flex justifyCenter"><a href="https://github.com/Val56000/eLearningV2DemoClient.git" target="_blank"
-                    title="e-learning GitHub Version2"><i class="fa-brands fa-github"></i></a></div>
-            <div class="flex justifyCenter size0-7">Version 2 (Vue.js - Laravel)</div>
+                    title="E-learning GitHub Version2"><i class="fa-brands fa-github pt-5"></i></a></div>
+            <div class="flex justifyCenter size1">Version 2 (Vue.js - Laravel)</div>
 
         </div>
 

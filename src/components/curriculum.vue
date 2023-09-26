@@ -4,7 +4,7 @@
 
 
 <template>
-    <div class="mt-6-5 flex flexColumn justifyCenter">
+    <div class="mt-5-1 flex flexColumn justifyCenter">
         <div class="flex justifyCenter">
         <a href="../../src/assets/image/curriculum_vitae.pdf" target="_blank">
             <button type="button" class="cursor mb-5"><i class="fa-solid fa-download mr-2"></i> Download CV </button>

@@ -4,6 +4,7 @@ import project1 from './projects/project1.vue'
 import project3 from './projects/project3.vue'
 import project4 from './projects/project4.vue'
 import project5 from './projects/project5.vue'
+import project8 from './projects/project8.vue'
 
 const path = ref(null);
 
@@ -19,16 +20,28 @@ function displayParentProject(destroyComponentProject) {
 </script>
 
 <template>
-  <div v-if="path == null" class="flex flexRow justifyCenter roboto mt-8 flexWrap gap3">
+  <div v-if="path == null" class="flex flexRow justifyCenter roboto mt-7 flexWrap gap3">
     <div class="backGroundColor1 height2 containerProject width15 radius cursor" @click="showProject('project1')">
       <div class="flex flexColumn">
-        <div>
+        <div class="lineHeight0 pb-4">
           <i class="fa-solid fa-folder-open pr-1 mb-3"></i> Module e-learning - Société Okalys (2022 -
           2023)
         </div>
         <div class="flex gap1 justifyCenter">
           <i class="fa-brands fa-vuejs"></i>
           <i class="fa-brands fa-laravel"></i>
+
+        </div>
+      </div>
+    </div>
+    <div class="backGroundColor1 height2 containerProject width15 radius cursor" @click="showProject('project8')">
+      <div class="flex flexColumn">
+        <div class="lineHeight0 pb-4">
+          <i class="fa-solid fa-folder-open pr-1 mb-3"></i> Quiz interaction multijoueurs (Septembre 2023)
+        </div>
+        <div class="flex gap1 justifyCenter">
+          <i class="fa-brands fa-vuejs"></i>
+          <i class="fa-brands fa-php"></i>
 
         </div>
       </div>
@@ -84,7 +97,7 @@ function displayParentProject(destroyComponentProject) {
       href="https://github.com/Dagn3/ENIProjet.git" target="_blank">
       <div>
         <div class="flex flexColumn">
-          <div>
+          <div class="lineHeight0 pb-4 ml-1-2 mr-1-2">
             <i class="fa-solid fa-folder-open pr-1 mb-3"></i> Appli d'organisation de sorties scolaires (ENI - 2021)
           </div>
           <div class="flex gap1 justifyCenter">
@@ -112,6 +125,7 @@ function displayParentProject(destroyComponentProject) {
   <project3 v-if="path == 'project3'" @emitDestroyComponentProject="displayParentProject" />
   <project4 v-if="path == 'project4'" @emitDestroyComponentProject="displayParentProject" />
   <project5 v-if="path == 'project5'" @emitDestroyComponentProject="displayParentProject" />
+  <project8 v-if="path == 'project8'" @emitDestroyComponentProject="displayParentProject" />
 </template>
 
 <style scoped>

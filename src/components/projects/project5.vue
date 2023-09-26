@@ -13,7 +13,7 @@ function exit() {
 
 
 <template>
-    <div class="containerProject5 raleway selectNone size0-7">
+    <div class="containerProject5 raleway selectNone size1">
         <div class="mt-10  childContainerProject5 mb-7">
             <div class="container-exit cursor " @click="exit"><i class="fa-solid fa-rotate-left cursor mr-2"></i>Retour à
                 la
@@ -33,7 +33,7 @@ function exit() {
                     <div>Ces 2 sites web ont été réalisés avec le CMS Wordpress et son plugin Divi (Maquettes réalisées par
                         un
                         graphiste indépendant de l'association Défis).</div>
-                    <div class="flex flexColumn justifyCenter alignCenter mt-5 size0-7">
+                    <div class="flex flexColumn justifyCenter alignCenter mt-5 size1">
                         <div class="flex flexRow gap5">
                             <div class="flex flexColumn">
                                 <a href="http://www.alesi-asso.fr/" target="_blank" rel="noopener noreferrer">
